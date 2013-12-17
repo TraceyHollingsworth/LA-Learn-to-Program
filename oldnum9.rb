@@ -1,3 +1,6 @@
+puts 'Enter a number.'
+num_to_convert = gets.chomp.to_i
+
 def old_roman_numeral num
   roman = ''
   
@@ -11,4 +14,5 @@ def old_roman_numeral num
   roman
 end
 
-puts (old_roman_numeral(2013))
+puts 'The number you entered expressed as an "old" Roman numeral is '
+puts (old_roman_numeral(num_to_convert))
