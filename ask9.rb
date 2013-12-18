@@ -14,7 +14,7 @@ def ask question
     puts 'Please answer "yes" or "no".'
   end
   
-  answer
+
 end
 
 puts 'Hello, and thank you for taking the time to help me with this experiment.'
@@ -37,6 +37,6 @@ puts 'Thank you for taking the time to help with this experiment.'
 puts 'In fact, this experiment has nothing to do with Mexican food.'
 puts 'It is an experiment about bed-wetting.'
 puts 'The Mexican food was just there to catch you off guard'
-puts 'in hopes that you would answer more honestly. Thanks agaain.'
+puts 'in hopes that you would answer more honestly. Thanks again.'
 puts
 puts wets_bed
